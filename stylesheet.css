@@ -1,0 +1,763 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    border: 1px white;
+}
+.number-6{
+    position: relative;
+    top: -1410px;
+    left: 135px;
+    width: 154.99px;
+    height: 285.93px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 200px;
+    color: #FFFF0A;
+}
+.number-6-white{
+    position: relative;
+    top: -1900px;
+    left: 125px;
+    width: 154.99px;
+    height: 285.93px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 200px;
+    color: black;
+}
+.gear-1{
+    width: 300px;
+    height: 290px;
+    position: absolute;
+    transition: all 2s ease-in-out;
+    opacity: 0.2; 
+}
+.gear-2{
+    width: 430px;
+    height: 430px;
+    position: relative;
+    top: 230px;
+    left: 30px;
+    transition: all 2s ease-in-out;
+    opacity: 0.2; 
+}
+.gear-3{
+    width: 320px;
+    height: 310px;
+    position: relative;
+    top: -90px;
+    left: -150px;
+    right: -450px;
+    transition: all 2s ease-in;
+    opacity: 0.2; 
+}
+
+.filled-gear{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    top: -2580px;
+    left: 250px;
+    margin: 0;
+    padding: 0;
+    transition: all 2s ease-in;
+    filter: drop-shadow(-10px 10px 4px rgba(0, 0, 0, 0.25));
+}
+.opening-container{
+    position: relative;
+    top: -250px;
+}
+.opening{
+    background-color: #FAFF00;
+    color: black;
+    text-align: start;
+    font-size: 16px;
+    font-weight: 200;
+    position: relative;
+    left: 550px;
+    top: -670px;
+    width: 200px;
+    padding: 10em 12em;
+}
+.opening-title{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    color: #FFFF0A;
+    font-size: 90px;
+    font-weight: 700;
+    position: relative;
+    left: 1135px;
+    top: 360px;
+    padding: 0;
+    margin: 0;
+}
+.opening-title-yellow{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    color: #FC39B7;
+    font-size: 90px;
+    font-weight: 700;
+    position: relative;
+    left: 1135px;
+    top: -35px;
+    padding: 0;
+    margin: 0;
+}
+.opening-title-container{
+    position: relative;
+    top: -240px;
+    left: -20px;
+}
+.container-5{
+    position: relative;
+    top: -1100px;
+}
+.gear-4{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    top: -630px;
+    left: -10px;
+    right: -400px;
+    transition: all 2s ease-in;
+    opacity: 0.2; 
+    padding: 0;
+    margin: 0;
+}
+.gear-5{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: -700px;
+    left: -70px;
+    right: -400px;
+    transition: all 2s ease-in;
+    opacity: 0.2; 
+    padding: 0;
+    margin: 0;
+}
+.gear-6{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: -400px;
+    left: -450px;
+    right: -400px;
+    transition: all 2s ease-in;
+    opacity: 0.2; 
+    padding: 0;
+    margin: 0;
+}
+.self-love{
+    color: white;
+    text-align: start;
+    position: relative;
+    font-weight: 200;
+    top: -1000px;
+    right: -560px;
+    background: #0000FF;
+    width: 670px;
+    height: 280px;
+    padding: 8em 5em;
+}
+.self-love-title{
+    position: relative;
+    top: -320px;
+    left: 300px;
+    width: 462.23px;
+    height: 116.27px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 105px;
+    color: #FFFF0A;
+    transform: rotate(-90.25deg);
+}
+.self-love-black{
+    position: relative;
+    top: -540px;
+    left: 300px;
+    width: 462.23px;
+    height: 116.27px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 105px;
+    color: black;
+    transform: rotate(-90.25deg);
+}
+.filled-gear2{
+    width: 544px;
+    height: 534px;
+    position: relative;
+    top: -2600px;
+    right: -910px;
+    transition: all 2s ease-in;
+    filter: drop-shadow(-10px 10px 4px rgba(0, 0, 0, 0.25));
+}
+.gear-7{
+    position: relative;
+    top: -2200px;
+    right: -500px;
+    width: 400px;
+    height: 400px;
+    transition: all 2s ease-in-out;
+    opacity: 0.2; 
+
+}
+.gear-8{
+    width: 224px;
+    height: 224px;
+    position: relative;
+    top: -2430px;
+    right: 30px;
+    transition: all 2s ease-in-out;
+    opacity: 0.2; 
+}
+.gear-9{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: -2800px;
+    right: -1180px;
+    width: 289px;
+    height: 289px;
+    transition: all 2s ease-in-out;
+    opacity: 0.2; 
+}
+.number-5{
+    position: relative;
+    top: -3000px;
+    left: 1190px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 200px;
+    color: #0000FF;
+}
+.number-5-white{
+    position: relative;
+    top: -3440px;
+    left: 1175px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 200px;
+    color: black;
+}
+.self-love-container2{
+    position: relative;
+    top: -700px;
+}
+.self-love-container{
+    position: relative;
+    top: -400px;
+}
+.self-help-text{
+    background-color: #FC39B7;
+    color: white;
+    font-weight: 200;
+    text-align: start;
+    font-size: 16px;
+    position: relative;
+    left: 270px;
+    top: -3400px;
+    width: 500px;
+    height: 600px;
+    padding: 10px 50px;
+    padding-top: 90px;
+}
+.self-help-title{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    position: relative;
+    top: -4120px;
+    left: 760px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    color: #FC39B7;
+}
+.self-help-white{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    position: relative;
+    top: -4590px;
+    left: 760px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    color: #0000FF;
+}
+.number-4{
+    position: relative;
+    top: -4390px;
+    left: 170px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 234px;
+    color: #FC39B7;
+}
+.number-4-white{
+    position: relative;
+    top: -4825px;
+    left: 155px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 234px;
+}
+.self-help-container{
+    position: relative;
+    top: -1200px;
+}
+.gear-10{
+    width: 270px;
+    height: 270px;
+    position: relative;
+    top: -4400px;
+    transition: all 2s ease-in-out;
+    opacity: 0.2; 
+}
+.gear-11{
+    width: 533.09px;
+    height: 551.64px;
+    position: relative;
+    top: -3800px;
+    left: -280px;
+    transition: all 2s ease-in-out;
+    opacity: 0.2; 
+}
+.gear-12{
+    width: 201.26px;
+    height: 208.26px;
+    position: relative;
+    top: -4300px;
+    right: 700px;
+    transition: all 2s ease-in-out;
+    opacity: 0.2; 
+}
+.gear-13{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    top: -4200px;
+    left: -820px;
+    transition: all 2s ease-in-out;
+    filter: drop-shadow(5px 10px 4px rgba(0, 0, 0, 0.25));
+}
+.gears-container{
+    position: relative;
+    top: -1700px;
+}
+.help-title{
+    position: relative;
+    top: -170px;
+    left: -765px;
+    color: #FFFF0A;
+    font-size: 90px;
+    font-weight: 700;
+    transform: rotate(-90.25deg);
+}
+.help-title-white{
+    position: relative;
+    top: -370px;
+    left: -765px;
+    color: #FC39B7;
+    font-size: 90px;
+    font-weight: 700;
+    transform: rotate(-90.25deg);
+}
+.help-text{
+    background-color: #FAFF00;
+    color: black;
+    text-align: start;
+    font-weight: 200;
+    font-size: 16px;
+    position: relative;
+    width: 500px;
+    height: 400px;
+    padding: 15em 5em;
+    text-align: start;
+}
+.help-container{
+    position: relative;
+    top: -7300px;
+    left: 600px;
+}
+.gear-14{
+    width: 370px;
+    height: 370px;
+    position: relative;
+    top: -1400px;
+    right: -400px;
+    transition: all 2s ease-in-out;
+}
+.gear-15{
+    width: 600px;
+    height: 600px;
+    position: relative;
+    left: 50px;
+    top: -1200px;
+    transition: all 2s ease-in-out;
+    opacity: 0.2; 
+}
+.gear-16{
+    width: 220px;
+    height: 220px;
+    position: relative;
+    top: -1000px;
+    left: -290px;
+    transition: all 2s ease-in-out;
+    opacity: 0.2; 
+}
+.gear-17{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -1000px;
+    transition: all 2s ease-in-out;
+    opacity: 0.2; 
+}
+.gear-18{
+    width: 340px;
+    height: 340px;
+    position: relative;
+    top: -1100px;
+    right: -540px;
+    transition: all 2s ease-in-out;
+    opacity: 0.2; 
+}
+.number-3{
+    position: relative;
+    top: -900px;
+    left: 680px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 234px;
+    color: #FFFF0A;
+}
+.number-3-black{
+    position: relative;
+    top: -1345px;
+    left: 670px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 234px;
+    color: black;
+}
+.gears-container3{
+    position: relative;
+    top: -900px;
+}
+.forgiveness-container{
+    position: relative;
+    top: -1100px;
+}
+.forgiveness-text{
+    color: white;
+    text-align: start;
+    position: relative;
+    font-weight: 200;
+    top: -9370px;
+    right: -260px;
+    background: #0000FF;
+    width: 840px;
+    height: 350px;
+    padding: 8em 5em;
+}
+.number-2{
+    position: relative;
+    top: -10000px;
+    left: 80px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 234px;
+    color: #0000FF;
+}
+.number-2-black{
+    position: relative;
+    top: -10440px;
+    left: 70px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 234px;
+    color: black;
+}
+.gear-19{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: -11470px;
+    transition: all 2s ease-in-out;
+    opacity: 0.2; 
+}
+.gear-20{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: -11300px;
+    left: -300px;
+    transition: all 2s ease-in-out;
+    opacity: 0.2; 
+}
+.gear-21{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: -10950px;
+    left: -600px;
+    transition: all 2s ease-in-out;
+    opacity: 0.2; 
+}
+.gear-22{
+    width: 440px;
+    height: 440px;
+    position: relative;
+    top: -11370px;
+    left: -770px;
+    transition: all 2s ease-in-out;
+    filter: drop-shadow(5px 10px 4px rgba(0, 0, 0, 0.25));
+}
+.forgiveness-title{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    color: #FAFF00;
+    font-size: 90px;
+    font-weight: 700;
+    position: relative;
+    left: 1245px;
+    top: -8170px;
+    padding: 0;
+    margin: 0;
+}
+.forgiveness-title-colored{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    color: #0000FF;
+    font-size: 90px;
+    font-weight: 700;
+    position: relative;
+    left: 1245px;
+    top: -8768px;
+    padding: 0;
+    margin: 0;
+}
+.understanding-text{
+    background-color: #FC39B7;
+    color: white;
+    text-align: start;
+    font-size: 16px;
+    font-weight: 200;
+    position: relative;
+    left: 750px;
+    top: -12070px;
+    width: 320px;
+    height: 680px;
+    padding: 3em 5em;
+}
+.understanding-title{
+    transform: rotate(-90.25deg);
+    text-orientation: mixed;
+    color: #FC39B7;
+    font-size: 90px;
+    font-weight: 700;
+    position: relative;
+    left: -15px;
+    top: -11845px;
+    padding: 0;
+    margin: 0;
+}
+.understanding-title-colored{
+    transform: rotate(-90.25deg);
+    text-orientation: mixed;
+    color: #0000FF;
+    font-size: 90px;
+    font-weight: 700;
+    position: relative;
+    left: -15px;
+    top: -11945px;
+    padding: 0;
+    margin: 0;
+}
+.gear-23{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: -13300px;
+    left: 1100px;
+    transition: all 2s ease-in-out;
+    opacity: 0.2; 
+}
+.gear-24{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    top: -13100px;
+    left: 650px;
+    transition: all 2s ease-in-out;
+    filter: drop-shadow(5px 10px 4px rgba(0, 0, 0, 0.25));
+}
+.gear-25{
+    width: 340px;
+    height: 340px;
+    position: relative;
+    top: -12800px;
+    left: 400px;
+    transition: all 2s ease-in-out;
+    opacity: 0.2; 
+}
+
+.number-1{
+    position: relative;
+    top: -12700px;
+    left: 1250px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 234px;
+    color: #FC39B7;
+}
+.number-1-black{
+    position: relative;
+    top: -13135px;
+    left: 1258px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 234px;
+}
+.gears-container4{
+position: relative;
+top: -1000px;
+}
+.gear-26{
+    position: relative;
+    top: -13450px;
+    left: -10px;
+    transition: all 2s ease-in-out;
+    opacity: 0.2; 
+}
+.gear-27{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: -14000px;
+    transition: all 2s ease-in-out;
+    opacity: 0.2; 
+}
+.gear-28{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: -14000px;
+    transition: all 2s ease-in-out;
+    filter: drop-shadow(5px 10px 4px rgba(0, 0, 0, 0.25));
+}
+.gear-2:hover{
+    transform: rotate(180deg);
+}
+.gear-3:hover{
+    transform: rotate(180deg);
+}
+.gear-1:hover{
+    transform: rotate(180deg);
+}
+.filled-gear:hover{
+    transform: rotate(180deg);
+}
+.gear-4:hover{
+    transform: rotate(180deg);
+}
+.gear-5:hover{
+    transform: rotate(180deg);
+}
+.gear-6:hover{
+    transform: rotate(180deg);
+}
+.filled-gear2:hover{
+    transform: rotate(180deg);
+}
+.gear-7:hover{
+    transform: rotate(180deg);
+}
+.gear-8:hover{
+    transform: rotate(180deg);
+}
+.gear-9:hover{
+    transform: rotate(180deg);
+}
+.gear-10:hover{
+    transform: rotate(180deg);
+}
+.gear-11:hover{
+    transform: rotate(180deg);
+}
+.gear-12:hover{
+    transform: rotate(180deg);
+}
+.gear-13:hover{
+    transform: rotate(180deg);
+}
+.gear-14:hover{
+    transform: rotate(180deg);
+}
+.gear-15:hover{
+    transform: rotate(180deg);
+}
+.gear-16:hover{
+    transform: rotate(180deg);
+}
+.gear-17:hover{
+    transform: rotate(180deg);
+}
+.gear-18:hover{
+    transform: rotate(180deg);
+}
+.gear-19:hover{
+    transform: rotate(180deg);
+}
+.gear-20:hover{
+    transform: rotate(180deg);
+}
+.gear-21:hover{
+    transform: rotate(180deg);
+}
+.gear-22:hover{
+    transform: rotate(180deg);
+}
+.gear-23:hover{
+    transform: rotate(180deg);
+}
+.gear-24:hover{
+    transform: rotate(180deg);
+}
+.gear-25:hover{
+    transform: rotate(180deg);
+}
+.gear-26:hover{
+    transform: rotate(180deg);
+}
+.gear-27:hover{
+    transform: rotate(180deg);
+}
+.gear-28:hover{
+    transform: rotate(180deg);
+}
