@@ -587,29 +587,44 @@ overwhelmed animation*/
 /* Skyskraper */
 
 .skyscraper-container {
+  width: 100%;
+  height: 400%;
   display: block;
   overflow: hidden;
-  width: 100%;
 }
 .skyscraper {
   display: block;
   width: 100%;
-  height: 100%;
+  /* height: 3000px; */
+  background: white;
+  /* overflow-x: visible; */
+  padding: 10px;
   margin: 0;
-  /* background-image: url(Artboard\ 2.png); */
+  white-space: nowrap;
+  /* border-top: 2px solid rgba(0, 0, 0, 0.1); */
+  /* border-bottom: 2px solid rgba(0, 0, 0, 0.1); */
 }
-
+#skyscraper {
+  background-image: url(finalSkyscrapper_Kreslicí\ plátno\ 1.png);
+  width: 100%;
+  height: 3000px;
+}
 .skyscraper-item {
-  width: 2000px;
-  margin: 0 auto;
-  height: 600px;
+  display: inline-block;
+  width: 3850px;
+  margin: -10px;
+  height: 100%;
+  /* background: rgba(0, 0, 0, 0.05) no-repeat center center; */
+  background-size: cover;
   position: relative;
+  /* border-radius: 20px; */
+  /* box-shadow: 0 0 10px #dfdfdf; */
 }
 
-#finalSkyscrapper {
+/* #finalSkyscrapper {
   width: 100%;
   height: 80%;
-}
+} */
 
 .h2-therecanbe {
   font-family: "Inter", sans-serif;
@@ -620,7 +635,7 @@ overwhelmed animation*/
   float: left;
   position: absolute;
   left: 370px;
-  top: 3530px;
+  top: 1110px;
 }
 
 .h2-another {
@@ -632,7 +647,7 @@ overwhelmed animation*/
   float: left;
   position: absolute;
   left: 270px;
-  top: 3550px;
+  top: 1120px;
 }
 
 .h1-way {
@@ -643,7 +658,7 @@ overwhelmed animation*/
   float: left;
   position: absolute;
   left: 440px;
-  top: 3380px;
+  top: 955px;
 }
 
 .h3-consume {
@@ -654,8 +669,8 @@ overwhelmed animation*/
   z-index: 2;
   float: left;
   position: absolute;
-  left: 870px;
-  top: 3400px;
+  left: 880px;
+  top: 955px;
 }
 
 .h3-consume1 {
@@ -667,7 +682,7 @@ overwhelmed animation*/
   float: left;
   position: absolute;
   left: 880px;
-  top: 3550px;
+  top: 1050px;
 }
 
 .h3-consume2 {
@@ -679,7 +694,55 @@ overwhelmed animation*/
   float: left;
   position: absolute;
   left: 980px;
-  top: 3780px;
+  top: 1260px;
+}
+
+.h3-realize {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+  z-index: 2;
+  float: left;
+  position: absolute;
+  left: 400px;
+  top: 2300px;
+}
+
+.h3-realize1 {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  font-size: 1em;
+  color: rgb(255, 255, 255);
+  z-index: 2;
+  float: left;
+  position: absolute;
+  left: 400px;
+  top: 2400px;
+}
+
+.h3-price {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+  z-index: 2;
+  float: left;
+  position: absolute;
+  left: 1195px;
+  top: 1500px;
+}
+
+.h3-price1 {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  font-size: 1em;
+  color: rgb(255, 255, 255);
+  z-index: 2;
+  float: left;
+  position: absolute;
+  left: 1200px;
+  top: 1565px;
 }
 
 .h1-awareness {
@@ -690,7 +753,7 @@ overwhelmed animation*/
   float: left;
   position: absolute;
   left: 1150px;
-  top: 4870px;
+  top: 2400px;
   z-index: 2;
 }
 
@@ -702,7 +765,7 @@ overwhelmed animation*/
   float: left;
   position: absolute;
   left: 1200px;
-  top: 5000px;
+  top: 2530px;
   z-index: 2;
 }
 
@@ -746,11 +809,36 @@ overwhelmed animation*/
 }
 
 .overwhelmed-info {
-  width: 100%;
+  width: 60%;
 }
 
 .infographic1 {
-  margin-left: 20%;
+  margin-left: 30%;
+  margin-bottom: 30%;
+}
+
+.h1-over {
+  font-family: "Just Me Again Down Here", cursive;
+  font-weight: lighter;
+  color: rgb(252, 57, 183, 1);
+  font-size: 90px;
+  float: left;
+  position: absolute;
+  left: 50px;
+  top: 500px;
+  z-index: 2;
+}
+
+.h2-over {
+  font-family: "Inter", sans-serif;
+  font-weight: lighter;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  float: left;
+  position: absolute;
+  top: 650px;
+  left: 60px;
+  z-index: 2;
 }
 
 /* .infographic2 {
