@@ -1,0 +1,759 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+}
+/* #img {
+  background-color: rgb(44, 44, 44);
+} */
+
+.phrases-container {
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+}
+
+.phrases {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  margin: 0;
+  background-image: url(error.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.phrases-item {
+  display: inline-block;
+  position: relative;
+  width: 2000px;
+  margin: 0 auto;
+  height: 600px;
+  position: relative;
+}
+
+/* #firstImage {
+  width: 100%;
+  height: 1000px;
+  object-fit: cover;
+  margin-top: 50%;
+  opacity: 70%;
+} */
+
+.p1 {
+  font-family: "Just Me Again Down Here", cursive;
+  font-weight: bold;
+  color: rgba(0, 0, 0);
+  font-size: 90px;
+  /* float: left; */
+  position: absolute;
+  left: 17px;
+  top: 10px;
+  z-index: 2;
+}
+
+.p2 {
+  font-family: "Just Me Again Down Here", cursive;
+  font-weight: lighter;
+  color: rgba(0, 0, 0);
+  font-size: 90px;
+  float: left;
+  position: absolute;
+  left: 900px;
+  top: 411px;
+  z-index: 2;
+  transform: rotate(90deg);
+}
+
+.p3 {
+  font-family: "Inter", sans-serif;
+  font-weight: lighter;
+  color: rgba(0, 0, 0);
+  font-size: 60px;
+  float: left;
+  position: absolute;
+  left: 100px;
+  top: 300px;
+  z-index: 2;
+  transform: rotate(-90deg);
+}
+
+.p4 {
+  font-family: "Just Me Again Down Here", cursive;
+  font-weight: lighter;
+  color: rgba(0, 0, 0);
+  font-size: 60px;
+  float: left;
+  position: absolute;
+  left: 800px;
+  top: 0px;
+  z-index: 2;
+}
+
+.p5 {
+  font-family: "Just Me Again Down Here", cursive;
+  font-weight: lighter;
+  color: rgba(0, 0, 0);
+  font-size: 90px;
+  float: left;
+  position: absolute;
+  left: 500px;
+  top: 50px;
+  z-index: 2;
+}
+
+.p6 {
+  font-family: "Just Me Again Down Here", cursive;
+  font-weight: lighter;
+  color: rgba(0, 0, 0);
+  font-size: 90px;
+  float: left;
+  position: absolute;
+  left: -100px;
+  top: 300px;
+  z-index: 2;
+  transform: rotate(90deg);
+}
+
+.p7 {
+  font-family: "Just Me Again Down Here", cursive;
+  font-weight: bold;
+  color: rgba(0, 0, 0);
+  font-size: 60px;
+  float: left;
+  position: absolute;
+  left: 840px;
+  top: 460px;
+  z-index: 2;
+  transform: rotate(-90deg);
+}
+
+.p8 {
+  font-family: "Inter", sans-serif;
+  font-weight: light;
+  color: rgba(0, 0, 0);
+  font-size: 60px;
+  float: left;
+  position: absolute;
+  left: 10px;
+  top: 400px;
+  z-index: 2;
+  animation: lights 5s 750ms linear infinite;
+}
+
+.p9 {
+  font-family: "Just Me Again Down Here", cursive;
+  font-weight: lighter;
+  color: rgba(0, 0, 0);
+  font-size: 90px;
+  float: left;
+  position: absolute;
+  left: 50px;
+  top: 400px;
+  z-index: 2;
+  transform: rotate(-90deg);
+}
+
+.p10 {
+  font-family: "Inter", sans-serif;
+  font-weight: lighter;
+  color: rgba(0, 0, 0);
+  font-size: 70px;
+  float: left;
+  position: absolute;
+  left: 120px;
+  top: 150px;
+  z-index: 2;
+}
+
+.p11 {
+  font-family: "Just Me Again Down Here", cursive;
+  font-weight: bold;
+  color: rgba(0, 0, 0);
+  font-size: 80px;
+  float: left;
+  position: absolute;
+  left: 130px;
+  top: 500px;
+  z-index: 2;
+  animation: lights 5s 750ms linear infinite;
+}
+
+.p12 {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  color: rgba(0, 0, 0);
+  font-size: 70px;
+  float: left;
+  position: absolute;
+  left: 180px;
+  top: 290px;
+  z-index: 2;
+}
+
+.p13 {
+  font-family: "Just Me Again Down Here", cursive;
+  font-weight: bold;
+  color: rgba(0, 0, 0);
+  font-size: 100px;
+  float: left;
+  position: absolute;
+  left: 120px;
+  top: 610px;
+  z-index: 2;
+  /* animation: float 3s ease-in-out infinite; */
+}
+
+.p14 {
+  font-family: "Just Me Again Down Here", cursive;
+  font-weight: bold;
+  color: rgba(0, 0, 0);
+  font-size: 120px;
+  float: left;
+  position: absolute;
+  left: 880px;
+  top: 140px;
+  z-index: 2;
+  animation: lights 5s 750ms linear infinite;
+}
+
+.p15 {
+  font-family: "Just Me Again Down Here", cursive;
+  font-weight: bold;
+  color: rgba(0, 0, 0);
+  font-size: 80px;
+  float: left;
+  position: absolute;
+  left: -10px;
+  top: 600px;
+  z-index: 2;
+  transform: rotate(-90deg);
+  animation: lights 5s 750ms linear infinite;
+}
+.p16 {
+  font-family: "Just Me Again Down Here", cursive;
+  font-weight: lighter;
+  color: rgba(0, 0, 0);
+  font-size: 180px;
+  float: left;
+  position: absolute;
+  left: 700px;
+  top: 400px;
+  z-index: 2;
+  transform: rotate(-90deg);
+  animation: lights 5s 750ms linear infinite;
+}
+
+/* adapted from https://codepen.io/zastrow/pen/PoJmzGJ */
+/* @keyframes lights {
+  0% {
+    color: hsl(0, 0%, 0%);
+    text-shadow: 0 0 1em hsl(330, 2%, 24%), 0 0 0.125em hsla(330, 1%, 31%, 0.3),
+      -1em -0.125em 0.5em hsl(40, 2%, 26%),
+      1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+  }
+
+  30% {
+    color: hsl(0, 0%, 0%);
+    text-shadow: 0 0 1em hsla(330, 1%, 27%, 0.5),
+      0 0 0.125em hsla(300, 1%, 26%, 0.5),
+      -0.5em -0.125em 0.25em hsla(60, 1%, 25%, 0.2),
+      0.5em 0.125em 0.25em hsla(200, 5%, 49%, 0.4);
+  }
+
+  40% {
+    color: hsl(0, 0%, 0%);
+    text-shadow: 0 0 1em hsla(320, 2%, 26%, 0.5),
+      0 0 0.125em hsla(300, 1%, 36%, 0.5),
+      -0.25em -0.125em 0.125em hsla(60, 1%, 31%, 0.2),
+      0.25em 0.125em 0.125em hsla(180, 3%, 16%, 0.4);
+  }
+
+  70% {
+    color: hsl(0, 0%, 0%);
+    text-shadow: 0 0 1em hsla(0, 0%, 6%, 0.5),
+      0 0 0.125em hsla(330, 2%, 20%, 0.5),
+      0.5em -0.125em 0.25em hsla(60, 2%, 23%, 0.2),
+      -0.5em 0.125em 0.25em hsla(0, 0%, 24%, 0.4);
+  }
+
+  100% {
+    color: hsl(0, 0%, 0%);
+    text-shadow: 0 0 1em hsla(320, 2%, 24%, 0.2),
+      0 0 0.125em hsla(320, 3%, 19%, 0.835),
+      1em -0.125em 0.5em hsla(60, 3%, 23%, 0.956),
+      -1em 0.125em 0.5em hsla(200, 2%, 30%, 0);
+  }
+} */
+
+.p1:hover {
+  transform: translateY(-0.25em);
+}
+.p2:hover {
+  transform: translateY(-0.25em);
+}
+.p16:hover {
+  transform: translateY(-0.25em);
+}
+
+#overwhelmed {
+  display: flex;
+  justify-content: center;
+  /* margin-top: 30%; */
+  /* background-color: rgb(44, 44, 44); */
+  /* height: 500px; */
+  font-size: 4em;
+  overflow: hidden;
+  transform: translatey(0px);
+  animation: float 3s ease-in-out infinite;
+  margin-bottom: 30%;
+}
+
+#intro {
+  background-color: rgb(213, 213, 213);
+  /* background-color: rgb(0, 0, 0); */
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  margin-top: 10%;
+  margin-bottom: 30%;
+  /* border-radius: 50px; */
+  /* background: #ffffff; */
+  box-shadow: 20px -20px 60px #d9d9d9, -20px 20px 60px #ffffff;
+}
+
+/* animation taken from https://codepen.io/MarioDesigns/pen/woJgeo 
+overwhelmed animation*/
+@keyframes float {
+  0% {
+    /* box-shadow: 0 5px 15px 0px rgba(204, 204, 204, 0.6); */
+    transform: translatey(0px);
+  }
+  50% {
+    /* box-shadow: 0 25px 15px 0px rgba(247, 244, 244, 0.2); */
+    transform: translatey(-20px);
+    color: rgba(0, 0, 255, 1);
+  }
+  100% {
+    /* box-shadow: 0 5px 15px 0px rgba(140, 139, 139, 0.6); */
+    transform: translatey(0px);
+  }
+}
+
+/* table of contents */
+#number1 {
+  align-self: center;
+  font-size: 6em;
+  color: rgba(0, 0, 255, 1);
+}
+
+#tableTitle {
+  font-size: 1.4em;
+  margin-bottom: 5px;
+  color: rgba(252, 57, 183, 1);
+}
+
+#content-box {
+  display: flex;
+  transition: all 0.25s;
+  width: 25%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+}
+
+#content-box:hover {
+  background-color: rgba(252, 57, 183, 1);
+  box-shadow: 0 1em 1em -0.6em rgba(252, 57, 184, 0.667);
+  transform: translateY(-0.25em);
+}
+
+/* Inspired from https://codepen.io/giuseppebianchi/pen/MwoMBa */
+/* horizontal caroulsel */
+.container-carousel {
+  width: 100%;
+  height: 80%;
+  display: block;
+  overflow: hidden;
+}
+.carousel {
+  display: block;
+  width: 100%;
+  height: 600px;
+  background: white;
+  overflow-x: scroll;
+  padding: 10px;
+  margin: 0;
+  white-space: nowrap;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+.carousel-item {
+  display: inline-block;
+  width: 3850px;
+  margin: -10px;
+  height: 600px;
+  background: rgba(0, 0, 0, 0.05) no-repeat center center;
+  background-size: cover;
+  position: relative;
+  /* border-radius: 20px; */
+  box-shadow: 0 0 10px #dfdfdf;
+}
+/* .carousel-item div {
+  width: 100%;
+  top: 10%;
+  position: absolute;
+  text-align: center;
+  font-size: 9em;
+  color: white;
+} */
+
+.h1-purpose {
+  font-family: "Just Me Again Down Here", cursive;
+  font-weight: lighter;
+  color: rgba(252, 57, 183, 1);
+  font-size: 90px;
+  float: left;
+  position: absolute;
+  left: 600px;
+  top: 150px;
+}
+
+.h2-purpose {
+  font-family: "Inter", sans-serif;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0.25em;
+  font-size: 30px;
+  float: left;
+  position: absolute;
+  left: 648px;
+  top: 277px;
+}
+
+.h3-purpose {
+  font-family: "Inter", sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 300;
+  float: left;
+  position: absolute;
+  left: 649px;
+  top: 327px;
+}
+
+#crayons {
+  height: 200px;
+  width: 500px;
+  float: left;
+  position: absolute;
+  left: 1202px;
+  top: 426px;
+}
+
+.h1-information {
+  font-family: "Just Me Again Down Here", cursive;
+  font-weight: lighter;
+  color: rgba(252, 57, 183, 1);
+  font-size: 90px;
+  float: left;
+  position: absolute;
+  left: 1309px;
+  top: -11px;
+}
+
+.h2-information {
+  font-family: "Inter", sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  float: left;
+  position: absolute;
+  left: 1377px;
+  top: 119px;
+}
+
+.h3-information {
+  font-family: "Inter", sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 300;
+  float: left;
+  position: absolute;
+  left: 1377px;
+  top: 165px;
+}
+
+.h1-team {
+  font-family: "Just Me Again Down Here", cursive;
+  font-weight: lighter;
+  color: rgba(255, 255, 10);
+  font-size: 90px;
+  float: left;
+  position: absolute;
+  left: 2122px;
+  top: 150px;
+}
+
+.h2-team {
+  font-family: "Inter", sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  float: left;
+  position: absolute;
+  left: 2130px;
+  top: 282px;
+}
+
+.h3-team {
+  font-family: "Inter", sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 300;
+  float: left;
+  position: absolute;
+  left: 2131px;
+  top: 327px;
+}
+
+.kate-img {
+  width: 6.3%;
+  float: left;
+  position: absolute;
+  left: 2732px;
+  top: 157px;
+}
+
+.evellin-img {
+  width: 7.5%;
+  float: left;
+  position: absolute;
+  left: 3500px;
+  top: 192px;
+}
+
+.isabel-img {
+  width: 9%;
+  float: left;
+  position: absolute;
+  left: 3080px;
+  top: 40px;
+}
+
+.kate {
+  font-family: "Just Me Again Down Here", cursive;
+  font-weight: lighter;
+  color: rgba(0, 0, 255, 1);
+  font-size: 90px;
+  float: left;
+  position: absolute;
+  left: 2706px;
+  top: 398px;
+  z-index: 2;
+}
+
+.isabel {
+  font-family: "Just Me Again Down Here", cursive;
+  font-weight: lighter;
+  color: rgba(0, 0, 255, 1);
+  font-size: 90px;
+  float: left;
+  position: absolute;
+  left: 3300px;
+  top: 160px;
+  z-index: 2;
+}
+
+.evellin {
+  font-family: "Just Me Again Down Here", cursive;
+  font-weight: lighter;
+  color: rgba(0, 0, 255, 1);
+  font-size: 90px;
+  float: left;
+  position: absolute;
+  left: 3670px;
+  top: 390px;
+  z-index: 2;
+}
+
+#carousel {
+  background-image: url(Artboard\ 11.png);
+}
+
+/* Skyskraper */
+
+.skyscraper-container {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+.skyscraper {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  /* background-image: url(Artboard\ 2.png); */
+}
+
+.skyscraper-item {
+  width: 2000px;
+  margin: 0 auto;
+  height: 600px;
+  position: relative;
+}
+
+#finalSkyscrapper {
+  width: 100%;
+  height: 80%;
+}
+
+.h2-therecanbe {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 2.5em;
+  color: rgba(0, 0, 255, 1);
+  z-index: 2;
+  float: left;
+  position: absolute;
+  left: 370px;
+  top: 3530px;
+}
+
+.h2-another {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 5em;
+  color: rgba(0, 0, 255, 1);
+  z-index: 2;
+  float: left;
+  position: absolute;
+  left: 270px;
+  top: 3550px;
+}
+
+.h1-way {
+  font-family: "Just Me Again Down Here", cursive;
+  font-weight: lighter;
+  color: rgba(252, 57, 183, 1);
+  font-size: 15em;
+  float: left;
+  position: absolute;
+  left: 440px;
+  top: 3380px;
+}
+
+.h3-consume {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  color: rgba(0, 0, 0);
+  z-index: 2;
+  float: left;
+  position: absolute;
+  left: 870px;
+  top: 3400px;
+}
+
+.h3-consume1 {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  font-size: 1em;
+  color: rgba(0, 0, 0);
+  z-index: 2;
+  float: left;
+  position: absolute;
+  left: 880px;
+  top: 3550px;
+}
+
+.h3-consume2 {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  font-size: 1em;
+  color: rgba(0, 0, 0);
+  z-index: 2;
+  float: left;
+  position: absolute;
+  left: 980px;
+  top: 3780px;
+}
+
+.h1-awareness {
+  font-family: "Just Me Again Down Here", cursive;
+  font-weight: lighter;
+  color: rgb(255, 255, 10);
+  font-size: 90px;
+  float: left;
+  position: absolute;
+  left: 1150px;
+  top: 4870px;
+  z-index: 2;
+}
+
+.h2-awareness {
+  font-family: "Inter", sans-serif;
+  font-weight: lighter;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  float: left;
+  position: absolute;
+  left: 1200px;
+  top: 5000px;
+  z-index: 2;
+}
+
+.container-toxic {
+  display: flex;
+  margin-bottom: 30%;
+  margin-top: 30%;
+}
+
+.h1-toxic {
+  font-family: "Just Me Again Down Here", cursive;
+  font-weight: lighter;
+  color: rgba(252, 57, 183, 1);
+  font-size: 90px;
+  float: left;
+  position: absolute;
+  left: 100px;
+}
+
+.h1-toxic:hover {
+  /* background-color: rgba(252, 57, 183, 1); */
+  box-shadow: 0 1em 1em -0.6em rgba(0, 0, 255, 1);
+  /* transform: translateY(-0.25em); */
+}
+.h2-toxic {
+  font-family: "Inter", sans-serif;
+  font-weight: lighter;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  float: left;
+  position: absolute;
+  left: 123px;
+  top: 560px;
+}
+
+.div-toxic {
+  width: 40%;
+  float: left;
+  position: absolute;
+  left: 650px;
+}
+
+.overwhelmed-info {
+  width: 100%;
+}
+
+.infographic1 {
+  margin-left: 20%;
+}
+
+/* .infographic2 {
+  background-image: url(Screenshot\ 2023-05-01\ at\ 16.35.21.png);
+  background-size: contain;
+} */
