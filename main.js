@@ -1,8 +1,8 @@
-// function toBottom() {
-//   window.scrollTo(0, document.body.scrollHeight);
-// }
+function toBottom() {
+  window.scrollTo(0, document.body.scrollHeight);
+}
 // window.onload = toBottom;
-// window.addEventListener("load", toBottom);
+window.addEventListener("load", toBottom);
 // // Add an event listener to each content box
 // // debug chat GPT
 
