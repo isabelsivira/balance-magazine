@@ -843,7 +843,7 @@ overwhelmed animation*/
   float: left;
   position: absolute;
   top: 655px;
-  left: -8px;
+  left: 87px;
   z-index: 2;
 }
 
@@ -924,7 +924,7 @@ overwhelmed animation*/
   font-family: "Just Me Again Down Here", cursive;
   font-weight: lighter;
   color: rgba(252, 57, 183, 1);
-  font-size: 90px;
+  font-size: 100px;
   float: left;
   position: absolute;
   left: 100px;
@@ -941,7 +941,7 @@ overwhelmed animation*/
   font-family: "Inconsolata", monospace;
   font-weight: normal;
   color: rgb(0, 0, 0);
-  font-size: 30px;
+  font-size: 40px;
   float: left;
   position: absolute;
   left: 123px;
@@ -1000,5 +1000,243 @@ overwhelmed animation*/
   position: absolute;
   left: 238px;
   top: 1350px;
+  z-index: 2;
+}
+
+.container-balance {
+  width: 100%;
+  height: 600%;
+  display: block;
+  overflow: hidden;
+  float: left;
+  position: absolute;
+  left: -10px;
+  top: 174px;
+  z-index: 2;
+}
+.balance {
+  display: block;
+  width: 100%;
+  background: white;
+  padding: 10px;
+  margin: 0;
+  white-space: nowrap;
+  z-index: 2;
+}
+.balance-item {
+  display: inline-block;
+  width: 3850px;
+  margin: -10px;
+  height: 100%;
+  background-size: cover;
+  position: relative;
+  z-index: 2;
+}
+
+.h1-balance {
+  font-family: "Just Me Again Down Here", cursive;
+  font-weight: lighter;
+  color: rgba(252, 57, 183, 1);
+  font-size: 100px;
+  float: left;
+  position: absolute;
+  left: 100px;
+  top: 7107px;
+  z-index: 2;
+}
+
+.h2-balance {
+  font-family: "Inconsolata", monospace;
+  font-weight: normal;
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  float: left;
+  position: absolute;
+  left: 140px;
+  top: 7241px;
+}
+
+.skater {
+  width: 23%;
+  float: left;
+  position: absolute;
+  left: 514px;
+  top: 6029px;
+  z-index: 2;
+}
+
+.bala {
+  font-family: "Inter", sans-serif;
+  font-weight: bolder;
+  font-size: 20em;
+  color: rgba(0, 0, 255, 1);
+  width: 40%;
+  float: left;
+  position: absolute;
+  left: 527px;
+  top: 6562px;
+  transform: rotate(90deg);
+  z-index: 2;
+  letter-spacing: 0.3em;
+}
+
+.n-letter {
+  font-family: "Inter", sans-serif;
+  font-weight: bolder;
+  font-size: 20em;
+  color: rgba(252, 57, 183, 1);
+  width: 40%;
+  float: left;
+  position: absolute;
+  left: 1080px;
+  top: 6987px;
+  z-index: 2;
+}
+
+.c-letter {
+  font-family: "Inter", sans-serif;
+  font-weight: bolder;
+  font-size: 40em;
+  color: rgba(0, 0, 0);
+  width: 40%;
+  float: left;
+  position: absolute;
+  left: 334px;
+  top: 6132px;
+  z-index: 2;
+  transform: rotate(296deg);
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: black;
+  float: left;
+  position: absolute;
+  left: 835px;
+  top: 7233px;
+  z-index: 2;
+}
+.e-letter {
+  font-family: "Inter", sans-serif;
+  font-weight: bolder;
+  font-size: 30em;
+  color: rgba(252, 57, 183, 1);
+  width: 40%;
+  float: left;
+  position: absolute;
+  left: -995px;
+  top: 6737px;
+  z-index: 2;
+  transform: rotate(166deg);
+}
+
+.h1-deal {
+  font-family: "Inconsolata", monospace;
+
+  color: rgb(0, 0, 0);
+
+  font-weight: bold;
+  font-size: 2.5em;
+  float: left;
+  position: absolute;
+  left: 221px;
+  top: 6333px;
+}
+
+.h2-deal {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  color: rgb(0, 0, 0);
+  font-size: 1em;
+  float: left;
+  position: absolute;
+  left: 221px;
+  top: 6398px;
+  z-index: 2;
+}
+
+.kate-final,
+.evellin-final,
+.isabel-final {
+  font-family: "Just Me Again Down Here", cursive;
+  font-weight: lighter;
+  color: rgba(252, 57, 183, 1);
+  font-size: 90px;
+}
+
+.kate-signature,
+.eve-signature,
+.isa-signature {
+  width: 23%;
+}
+
+.kate-final {
+  float: left;
+  position: absolute;
+  left: 313px;
+  top: 5394px;
+  z-index: 2;
+  transform: rotate(353deg);
+}
+.kate-signature {
+  float: left;
+  position: absolute;
+  left: -114px;
+  top: 5128px;
+  z-index: 2;
+}
+
+.evellin-final {
+  float: left;
+  position: absolute;
+  left: 690px;
+  top: 5476px;
+  z-index: 2;
+}
+.eve-signature {
+  float: left;
+  position: absolute;
+  left: 292px;
+  top: 5199px;
+  z-index: 2;
+}
+
+.isabel-final {
+  float: left;
+  position: absolute;
+  left: 1080px;
+  top: 5385px;
+  z-index: 2;
+  transform: rotate(359deg);
+}
+.isa-signature {
+  float: left;
+  position: absolute;
+  left: 732px;
+  top: 5127px;
+  z-index: 2;
+}
+.h1-conclusion {
+  font-family: "Inconsolata", monospace;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 2.5em;
+  float: left;
+  position: absolute;
+  left: 528px;
+  top: 5065px;
+}
+
+.h2-conclusion {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  color: rgb(0, 0, 0);
+  font-size: 1em;
+  float: left;
+  position: absolute;
+  left: 528px;
+  top: 5132px;
   z-index: 2;
 }
