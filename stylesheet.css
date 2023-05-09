@@ -2,16 +2,10 @@
   font-family: "Roboto", sans-serif;
   border: 1px white;
 }
-
-.understanding-container {
-  display: flex;
-  flex-flow: column wrap;
-  height: fit-content;
-}
 .number-6 {
   position: relative;
-  top: -1410px;
-  left: 135px;
+  top: 8901px;
+  left: 264px;
   width: 154.99px;
   height: 285.93px;
   font-family: "Roboto";
@@ -22,8 +16,8 @@
 }
 .number-6-white {
   position: relative;
-  top: -1900px;
-  left: 125px;
+  top: 8417px;
+  left: 274px;
   width: 154.99px;
   height: 285.93px;
   font-family: "Roboto";
@@ -38,13 +32,15 @@
   position: absolute;
   transition: all 2s ease-in-out;
   opacity: 0.2;
+  top: 10127px;
+  left: 54px;
 }
 .gear-2 {
   width: 430px;
   height: 430px;
   position: relative;
-  top: 230px;
-  left: 30px;
+  top: 10367px;
+  left: 119px;
   transition: all 2s ease-in-out;
   opacity: 0.2;
 }
@@ -52,7 +48,7 @@
   width: 320px;
   height: 310px;
   position: relative;
-  top: -90px;
+  top: 10029px;
   left: -150px;
   right: -450px;
   transition: all 2s ease-in;
@@ -63,8 +59,8 @@
   width: 350px;
   height: 350px;
   position: relative;
-  top: -2580px;
-  left: 250px;
+  top: 7721px;
+  left: 368px;
   margin: 0;
   padding: 0;
   transition: all 2s ease-in;
@@ -82,19 +78,24 @@
   font-weight: 200;
   position: relative;
   left: 550px;
-  top: -670px;
-  width: 200px;
-  padding: 10em 12em;
+  top: 9505px;
+  width: 170px;
+  height: 200px;
+  padding-top: 5em;
+  padding-bottom: 12em;
+  padding-right: 12em;
+  padding-left: 12em;
+  border-radius: 30px;
 }
 .opening-title {
   writing-mode: vertical-rl;
   text-orientation: mixed;
   color: #ffff0a;
-  font-size: 90px;
+  font-size: 80px;
   font-weight: 700;
   position: relative;
-  left: 1135px;
-  top: 360px;
+  left: 1111px;
+  top: 10526px;
   padding: 0;
   margin: 0;
 }
@@ -102,11 +103,11 @@
   writing-mode: vertical-rl;
   text-orientation: mixed;
   color: #fc39b7;
-  font-size: 90px;
+  font-size: 80px;
   font-weight: 700;
   position: relative;
-  left: 1135px;
-  top: -35px;
+  left: 1113px;
+  top: 10179px;
   padding: 0;
   margin: 0;
 }
@@ -156,57 +157,66 @@
   margin: 0;
 }
 .self-love {
+  display: flex;
   color: white;
   text-align: start;
   position: relative;
   font-weight: 200;
-  top: -1000px;
+  top: 9770px;
   right: -560px;
   background: #0000ff;
   width: 670px;
-  height: 280px;
+  height: 208px;
   padding: 8em 5em;
+  border-radius: 30px;
+}
+
+.self-text {
+  padding: 1em;
+  margin: 1em;
+  width: 510px;
 }
 .self-love-title {
   position: relative;
-  top: -320px;
+  top: 10309px;
   left: 300px;
   width: 462.23px;
   height: 116.27px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 90px;
+  font-size: 80px;
   line-height: 105px;
   color: #ffff0a;
   transform: rotate(-90.25deg);
 }
 .self-love-black {
   position: relative;
-  top: -540px;
+  top: 10118px;
   left: 300px;
   width: 462.23px;
   height: 116.27px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 90px;
+  font-size: 80px;
   line-height: 105px;
   color: black;
   transform: rotate(-90.25deg);
 }
 .filled-gear2 {
-  width: 544px;
-  height: 534px;
+  width: 300px;
+  height: 300px;
   position: relative;
-  top: -2600px;
-  right: -910px;
+  top: 7981px;
+  right: -1140px;
   transition: all 2s ease-in;
   filter: drop-shadow(-10px 10px 4px rgba(0, 0, 0, 0.25));
 }
 .gear-7 {
   position: relative;
-  top: -2200px;
+  top: 8242px;
+  left: 808px;
   right: -500px;
   width: 400px;
   height: 400px;
@@ -217,7 +227,8 @@
   width: 224px;
   height: 224px;
   position: relative;
-  top: -2430px;
+  top: 8011px;
+  left: 232px;
   right: 30px;
   transition: all 2s ease-in-out;
   opacity: 0.2;
@@ -226,8 +237,8 @@
   width: 300px;
   height: 300px;
   position: relative;
-  top: -2800px;
-  right: -1180px;
+  top: 7863px;
+  right: -319px;
   width: 289px;
   height: 289px;
   transition: all 2s ease-in-out;
@@ -235,8 +246,8 @@
 }
 .number-5 {
   position: relative;
-  top: -3000px;
-  left: 1190px;
+  top: 7734px;
+  left: 1290px;
   font-style: normal;
   font-weight: 700;
   font-size: 200px;
@@ -244,8 +255,8 @@
 }
 .number-5-white {
   position: relative;
-  top: -3440px;
-  left: 1175px;
+  top: 7299px;
+  left: 1299px;
   font-style: normal;
   font-weight: 700;
   font-size: 200px;
@@ -267,39 +278,40 @@
   font-size: 16px;
   position: relative;
   left: 270px;
-  top: -3400px;
+  top: 7643px;
   width: 500px;
-  height: 600px;
+  height: 390px;
   padding: 10px 50px;
   padding-top: 90px;
+  border-radius: 30px;
 }
 .self-help-title {
   writing-mode: vertical-rl;
   text-orientation: mixed;
   position: relative;
-  top: -4120px;
-  left: 760px;
+  top: 7185px;
+  left: 777px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 90px;
+  font-size: 80px;
   color: #fc39b7;
 }
 .self-help-white {
   writing-mode: vertical-rl;
   text-orientation: mixed;
   position: relative;
-  top: -4590px;
-  left: 760px;
+  top: 6771px;
+  left: 777px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 90px;
+  font-size: 80px;
   color: #0000ff;
 }
 .number-4 {
   position: relative;
-  top: -4390px;
+  top: 6757px;
   left: 170px;
   font-family: "Roboto";
   font-style: normal;
@@ -308,9 +320,10 @@
   line-height: 234px;
   color: #fc39b7;
 }
+
 .number-4-white {
   position: relative;
-  top: -4825px;
+  top: 6323px;
   left: 155px;
   font-family: "Roboto";
   font-style: normal;
@@ -326,7 +339,7 @@
   width: 270px;
   height: 270px;
   position: relative;
-  top: -4400px;
+  top: 6709px;
   transition: all 2s ease-in-out;
   opacity: 0.2;
 }
@@ -334,7 +347,7 @@
   width: 533.09px;
   height: 551.64px;
   position: relative;
-  top: -3800px;
+  top: 7354px;
   left: -280px;
   transition: all 2s ease-in-out;
   opacity: 0.2;
@@ -343,7 +356,7 @@
   width: 201.26px;
   height: 208.26px;
   position: relative;
-  top: -4300px;
+  top: 6841px;
   right: 700px;
   transition: all 2s ease-in-out;
   opacity: 0.2;
@@ -352,8 +365,8 @@
   width: 350px;
   height: 350px;
   position: relative;
-  top: -4200px;
-  left: -820px;
+  top: 7070px;
+  left: -939px;
   transition: all 2s ease-in-out;
   filter: drop-shadow(5px 10px 4px rgba(0, 0, 0, 0.25));
 }
@@ -366,18 +379,22 @@
   top: -170px;
   left: -765px;
   color: #ffff0a;
-  font-size: 90px;
+  font-size: 80px;
   font-weight: 700;
   transform: rotate(-90.25deg);
+  top: 11211px;
+  left: -811px;
 }
 .help-title-white {
   position: relative;
   top: -370px;
   left: -765px;
   color: #fc39b7;
-  font-size: 90px;
+  font-size: 80px;
   font-weight: 700;
   transform: rotate(-90.25deg);
+  top: 11045px;
+  left: -811px;
 }
 .help-text {
   background-color: #faff00;
@@ -387,9 +404,12 @@
   font-size: 16px;
   position: relative;
   width: 500px;
-  height: 400px;
-  padding: 15em 5em;
+  height: 220px;
+  padding: 11em 5em;
   text-align: start;
+  top: 11226px;
+  left: -60px;
+  border-radius: 30px;
 }
 .help-container {
   position: relative;
@@ -397,38 +417,43 @@
   left: 600px;
 }
 .gear-14 {
-  width: 370px;
-  height: 370px;
+  width: 334px;
+  height: 334px;
   position: relative;
-  top: -1400px;
+  top: 10260px;
   right: -400px;
   transition: all 2s ease-in-out;
+  z-index: 2;
 }
 .gear-15 {
-  width: 600px;
-  height: 600px;
+  width: 400px;
+  height: 400px;
   position: relative;
-  left: 50px;
-  top: -1200px;
+  left: 146px;
+  top: 10448px;
   transition: all 2s ease-in-out;
   opacity: 0.2;
+  z-index: 2;
 }
 .gear-16 {
-  width: 220px;
-  height: 220px;
+  width: 320px;
+  height: 320px;
   position: relative;
-  top: -1000px;
-  left: -290px;
+  top: 10089px;
+  left: -323px;
   transition: all 2s ease-in-out;
   opacity: 0.2;
+  z-index: 2;
 }
 .gear-17 {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   position: relative;
-  top: -1000px;
+  top: 10119px;
+  left: -384px;
   transition: all 2s ease-in-out;
   opacity: 0.2;
+  z-index: 2;
 }
 .gear-18 {
   width: 340px;
@@ -438,21 +463,23 @@
   right: -540px;
   transition: all 2s ease-in-out;
   opacity: 0.2;
+  z-index: 2;
 }
 .number-3 {
   position: relative;
-  top: -900px;
-  left: 680px;
+  top: 10517px;
+  left: 664px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 200px;
   line-height: 234px;
   color: #ffff0a;
+  width: fit-content;
 }
 .number-3-black {
   position: relative;
-  top: -1345px;
+  top: 10084px;
   left: 670px;
   font-family: "Roboto";
   font-style: normal;
@@ -460,6 +487,7 @@
   font-size: 200px;
   line-height: 234px;
   color: black;
+  width: fit-content;
 }
 .gears-container3 {
   position: relative;
@@ -470,21 +498,29 @@
   top: -1100px;
 }
 .forgiveness-text {
+  border-radius: 30px;
+  display: flex;
   color: white;
   text-align: start;
   position: relative;
   font-weight: 200;
-  top: -9370px;
+  top: 2891px;
   right: -260px;
   background: #0000ff;
-  width: 840px;
-  height: 350px;
-  padding: 8em 5em;
+  width: 788px;
+  height: 366px;
+  padding: 5em 5em;
+}
+
+.p-fogiveness {
+  padding: 1em;
+  margin: 1em;
+  width: 510px;
 }
 .number-2 {
   position: relative;
-  top: -10000px;
-  left: 80px;
+  top: 2294px;
+  left: 66px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -494,8 +530,8 @@
 }
 .number-2-black {
   position: relative;
-  top: -10440px;
-  left: 70px;
+  top: 1860px;
+  left: 54px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -507,7 +543,8 @@
   width: 300px;
   height: 300px;
   position: relative;
-  top: -11470px;
+  top: 946px;
+  left: 100px;
   transition: all 2s ease-in-out;
   opacity: 0.2;
 }
@@ -515,7 +552,7 @@
   width: 200px;
   height: 200px;
   position: relative;
-  top: -11300px;
+  top: 976px;
   left: -300px;
   transition: all 2s ease-in-out;
   opacity: 0.2;
@@ -524,29 +561,30 @@
   width: 400px;
   height: 400px;
   position: relative;
-  top: -10950px;
+  top: 1350px;
   left: -600px;
   transition: all 2s ease-in-out;
   opacity: 0.2;
 }
 .gear-22 {
-  width: 440px;
-  height: 440px;
+  width: 320px;
+  height: 320px;
   position: relative;
-  top: -11370px;
-  left: -770px;
+  top: 1090px;
+  left: -827px;
   transition: all 2s ease-in-out;
   filter: drop-shadow(5px 10px 4px rgba(0, 0, 0, 0.25));
 }
+
 .forgiveness-title {
   writing-mode: vertical-rl;
   text-orientation: mixed;
   color: #faff00;
-  font-size: 90px;
+  font-size: 80px;
   font-weight: 700;
   position: relative;
-  left: 1245px;
-  top: -8170px;
+  left: 1195px;
+  top: 3952px;
   padding: 0;
   margin: 0;
 }
@@ -554,14 +592,15 @@
   writing-mode: vertical-rl;
   text-orientation: mixed;
   color: #0000ff;
-  font-size: 90px;
+  font-size: 80px;
   font-weight: 700;
   position: relative;
-  left: 1245px;
-  top: -8768px;
+  left: 1195px;
+  top: 3419px;
   padding: 0;
   margin: 0;
 }
+
 .understanding-text {
   background-color: #fc39b7;
   color: white;
@@ -570,20 +609,21 @@
   font-weight: 200;
   position: relative;
   left: 750px;
-  top: -12070px;
-  width: 320px;
-  height: 680px;
+  top: 446px;
+  width: 298px;
+  height: 573px;
   padding: 3em 5em;
+  border-radius: 30px;
 }
 .understanding-title {
   transform: rotate(-90.25deg);
   text-orientation: mixed;
   color: #fc39b7;
-  font-size: 90px;
+  font-size: 80px;
   font-weight: 700;
   position: relative;
-  left: -15px;
-  top: -11845px;
+  left: -6px;
+  top: 560px;
   padding: 0;
   margin: 0;
 }
@@ -591,20 +631,20 @@
   transform: rotate(-90.25deg);
   text-orientation: mixed;
   color: #0000ff;
-  font-size: 90px;
+  font-size: 80px;
   font-weight: 700;
   position: relative;
-  left: -15px;
-  top: -11945px;
+  left: -7px;
+  top: 460px;
   padding: 0;
   margin: 0;
 }
 .gear-23 {
-  width: 500px;
-  height: 500px;
+  width: 272px;
+  height: 270px;
   position: relative;
-  top: -13300px;
-  left: 1100px;
+  top: -932px;
+  left: 1195px;
   transition: all 2s ease-in-out;
   opacity: 0.2;
 }
@@ -612,24 +652,26 @@
   width: 250px;
   height: 250px;
   position: relative;
-  top: -13100px;
-  left: 650px;
+  top: -1124px;
+  left: 827px;
   transition: all 2s ease-in-out;
   filter: drop-shadow(5px 10px 4px rgba(0, 0, 0, 0.25));
 }
 .gear-25 {
-  width: 340px;
-  height: 340px;
+  width: 307px;
+  height: 309px;
   position: relative;
-  top: -12800px;
-  left: 400px;
+  top: -1170px;
+  left: 477px;
   transition: all 2s ease-in-out;
   opacity: 0.2;
 }
 
 .number-1 {
   position: relative;
-  top: -12700px;
+  width: fit-content;
+  margin: 0;
+  top: -210px;
   left: 1250px;
   font-family: "Roboto";
   font-style: normal;
@@ -640,7 +682,9 @@
 }
 .number-1-black {
   position: relative;
-  top: -13135px;
+  width: fit-content;
+  margin: 0;
+  top: -447px;
   left: 1258px;
   font-family: "Roboto";
   font-style: normal;
@@ -650,31 +694,37 @@
 }
 .gears-container4 {
   position: relative;
-  top: -1000px;
+  top: -500px;
 }
 .gear-26 {
   position: relative;
-  top: -13450px;
-  left: -10px;
+  top: 45px;
+  left: -846px;
   transition: all 2s ease-in-out;
   opacity: 0.2;
+  width: 500px;
+  height: 500px;
 }
 .gear-27 {
-  width: 400px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
   position: relative;
-  top: -14000px;
+  top: -1490px;
+  left: 1217px;
   transition: all 2s ease-in-out;
   opacity: 0.2;
+  z-index: 2;
 }
 .gear-28 {
   position: relative;
-  width: 400px;
-  height: 400px;
+  width: 320px;
+  height: 320px;
   position: relative;
-  top: -14000px;
+  top: -371px;
+  left: -119px;
   transition: all 2s ease-in-out;
   filter: drop-shadow(5px 10px 4px rgba(0, 0, 0, 0.25));
+  z-index: 2;
 }
 .gear-2:hover {
   transform: rotate(180deg);
@@ -765,4 +815,49 @@
 }
 .gear-28:hover {
   transform: rotate(180deg);
+}
+.part-three-title {
+  font-family: "Just Me Again Down Here", cursive;
+  font-weight: lighter;
+  color: rgba(0, 0, 255, 1);
+  font-size: 100px;
+  z-index: 2;
+  margin: 0;
+  float: left;
+  position: absolute;
+  left: 10px;
+  top: 18261px;
+  z-index: 2;
+}
+.bottom-text {
+  font-family: "Inconsolata", monospace;
+  font-weight: normal;
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  float: left;
+  position: absolute;
+  left: 25px;
+  top: 18330px;
+  z-index: 2;
+  margin-bottom: 3%;
+}
+
+.invitation {
+  font-family: "Inconsolata", monospace;
+  font-weight: bold;
+  font-size: 30px;
+  float: left;
+  position: absolute;
+  left: 540px;
+  top: 17957px;
+}
+
+.invitation-text {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  float: left;
+  position: absolute;
+  left: 544px;
+  top: 18003px;
 }
