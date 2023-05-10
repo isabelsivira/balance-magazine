@@ -2,7 +2,7 @@
   font-family: "Roboto", sans-serif;
   border: 1px white;
 }
-body{
+body {
   overflow-x: hidden;
 }
 .number-6 {
@@ -624,11 +624,19 @@ body{
   margin: 0;
 }
 
+.understanding-first {
+  font-family: "Inconsolata", monospace;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
 .understanding-text {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
   background-color: #fc39b7;
   color: white;
   text-align: start;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 200;
   position: relative;
   left: 750px;
@@ -639,29 +647,19 @@ body{
   border-radius: 30px;
 }
 .understanding-title {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
   transform: rotate(-90.25deg);
   text-orientation: mixed;
   color: #fc39b7;
-  font-size: 80px;
-  font-weight: 700;
+  font-size: 65px;
   position: relative;
   left: -6px;
-  top: 560px;
+  top: 476px;
   padding: 0;
   margin: 0;
 }
-.understanding-title-colored {
-  transform: rotate(-90.25deg);
-  text-orientation: mixed;
-  color: #0000ff;
-  font-size: 80px;
-  font-weight: 700;
-  position: relative;
-  left: -7px;
-  top: 460px;
-  padding: 0;
-  margin: 0;
-}
+
 .gear-23 {
   width: 272px;
   height: 270px;

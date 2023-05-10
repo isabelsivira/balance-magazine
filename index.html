@@ -74,9 +74,9 @@
             let <br />
             into our lives.
           </h2>
-          <h1 class="kate-final">Kate</h1>
+          <!-- <h1 class="kate-final">Kate</h1>
           <h1 class="evellin-final">Evellin</h1>
-          <h1 class="isabel-final">Isabel</h1>
+          <h1 class="isabel-final">Isabel</h1> -->
           <img class="kate-signature" src="kate-Artwork.png" alt="" />
           <img class="eve-signature" src="eve-Artwork 2.png" alt="" />
           <img class="isa-signature" src="isa-Artwork 1.png" alt="" />
@@ -112,6 +112,7 @@
               What is your experience with <br />
               toxic positivity?
             </h2>
+            <div class="pink-div"></div>
           </div>
           <h1 class="h1-toxic">part four</h1>
           <h2 class="h2-toxic">toxic positivity</h2>
@@ -289,24 +290,25 @@
     </div>
     <div class="understanding-container">
       <p class="understanding-title">UNDERSTANDING</p>
-      <p class="understanding-title-colored">UNDERSTANDING</p>
       <p class="understanding-text">
-        Understanding is something that can bring us great peace and relief. And
-        it is useful on two battlefields - the one with other people, and the
-        one with ourselves. From time to time, each of us comes into conflict
-        with another person. We may get angry at the situation, feeling touched,
-        misunderstood and offended. We ourselves know very well why our point of
-        view is the way it is, and where our values and opinions come from. But
-        rarely do we take the trouble to understand the other person.
-        Understanding the other person's motivation can give us clues to end the
-        argument more quickly, or at least calm it down, and that brings peace
-        to us. It doesn't mean agreeing with the other person, just listening to
-        them with a calm and open mind. It is probably clear to you that
-        understanding ourselves is the way to be content and fulfilled. Knowing
-        which values and dreams are more important to us than others. But it's
-        just as necessary to know where those desires come from - why we long so
-        much for a cozy home or to travel the world, why we find the partners we
-        do. Realizing which wounds are still unhealed is the path to happiness.
+        <span class="understanding-first">Understanding is something that</span>
+        <br />
+        can bring us great peace and relief. And it is useful on two
+        battlefields - the one with other people, and the one with ourselves.
+        From time to time, each of us comes into conflict with another person.
+        We may get angry at the situation, feeling touched, misunderstood and
+        offended. We ourselves know very well why our point of view is the way
+        it is, and where our values and opinions come from. But rarely do we
+        take the trouble to understand the other person. Understanding the other
+        person's motivation can give us clues to end the argument more quickly,
+        or at least calm it down, and that brings peace to us. It doesn't mean
+        agreeing with the other person, just listening to them with a calm and
+        open mind. It is probably clear to you that understanding ourselves is
+        the way to be content and fulfilled. Knowing which values and dreams are
+        more important to us than others. But it's just as necessary to know
+        where those desires come from - why we long so much for a cozy home or
+        to travel the world, why we find the partners we do. Realizing which
+        wounds are still unhealed is the path to happiness.
       </p>
       <p class="number-1">1</p>
       <p class="number-1-black">1</p>
@@ -456,7 +458,7 @@
             </div>
           </span>
         </div>
-        <div id="content-box">
+        <div id="content-box" onclick="document.location='h1-awareness'">
           <span id="number1" class="number1">2</span>
           <span>
             <h2 id="tableTitle">Awareness</h2>
@@ -491,9 +493,29 @@
       </div>
     </span>
 
-    <div id="overwhelmed">
-      <h1>OVERWHELMED?</h1>
+    <div id="container">
+      <span id="text1"></span>
+      <span id="text2"></span>
     </div>
+
+    <svg id="filters">
+      <defs>
+        <filter id="threshold">
+          <feColorMatrix
+            in="SourceGraphic"
+            type="matrix"
+            values="1 0 0 0 0
+                                        0 1 0 0 0
+                                        0 0 1 0 0
+                                        0 0 0 255 -140"
+          />
+        </filter>
+      </defs>
+    </svg>
+
+    <!-- <div id="overwhelmed">
+      <h1>OVERWHELMED?</h1>
+    </div> -->
     <div class="phrases-container">
       <div class="phrases">
         <div class="phrases-item">

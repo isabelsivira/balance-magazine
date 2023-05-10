@@ -9,7 +9,7 @@ body {
 /* #img {
   background-color: rgb(44, 44, 44);
 } */
-body{
+body {
   overflow-x: hidden;
 }
 .phrases-container {
@@ -304,21 +304,6 @@ body{
   transform: translateY(-0.25em);
 }
 
-#overwhelmed {
-  font-family: "Inter", sans-serif;
-  font-weight: bold;
-  display: flex;
-  justify-content: center;
-  /* margin-top: 30%; */
-  /* background-color: rgb(44, 44, 44); */
-  /* height: 500px; */
-  font-size: 4em;
-  overflow: hidden;
-  transform: translatey(0px);
-  animation: float 3s ease-in-out infinite;
-  margin-bottom: 30%;
-}
-
 #intro {
   background-color: rgb(213, 213, 213);
   /* background-color: rgb(0, 0, 0); */
@@ -334,21 +319,21 @@ body{
 
 /* animation taken from https://codepen.io/MarioDesigns/pen/woJgeo 
 overwhelmed animation*/
-@keyframes float {
+/* @keyframes float {
   0% {
-    /* box-shadow: 0 5px 15px 0px rgba(204, 204, 204, 0.6); */
+    box-shadow: 0 5px 15px 0px rgba(204, 204, 204, 0.6);
     transform: translatey(0px);
   }
   50% {
-    /* box-shadow: 0 25px 15px 0px rgba(247, 244, 244, 0.2); */
+    box-shadow: 0 25px 15px 0px rgba(247, 244, 244, 0.2);
     transform: translatey(-20px);
     color: rgba(0, 0, 255, 1);
   }
   100% {
-    /* box-shadow: 0 5px 15px 0px rgba(140, 139, 139, 0.6); */
+    box-shadow: 0 5px 15px 0px rgba(140, 139, 139, 0.6);
     transform: translatey(0px);
   }
-}
+} */
 
 /* table of contents */
 #number1 {
@@ -570,16 +555,16 @@ overwhelmed animation*/
   width: 7.5%;
   float: left;
   position: absolute;
-  left: 3500px;
+  left: 3485px;
   top: 192px;
 }
 
 .isabel-img {
-  width: 9%;
+  width: 10%;
   float: left;
   position: absolute;
-  left: 3080px;
-  top: 40px;
+  left: 3039px;
+  top: 174px;
 }
 
 .kate {
@@ -602,7 +587,7 @@ overwhelmed animation*/
   float: left;
   position: absolute;
   left: 3300px;
-  top: 160px;
+  top: 152px;
   z-index: 2;
 }
 
@@ -613,8 +598,8 @@ overwhelmed animation*/
   font-size: 90px;
   float: left;
   position: absolute;
-  left: 3670px;
-  top: 390px;
+  left: 3637px;
+  top: 391px;
   z-index: 2;
 }
 
@@ -814,14 +799,36 @@ overwhelmed animation*/
 } */
 
 .overwhelmed-info {
+  width: 95%;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30%;
+  filter: url(#threshold) blur(0.6px);
+}
+
+#text1,
+#text2 {
+  position: absolute;
   width: 100%;
+  display: inline-block;
+
+  font-family: "Just Me Again Down Here", cursive;
+  font-weight: lighter;
+  font-size: 80pt;
+
+  text-align: center;
+
+  user-select: none;
 }
 
 .infographic1 {
   /* margin-bottom: 30%; */
   float: left;
   position: absolute;
-  left: 300px;
+  left: 106px;
   top: -50px;
 }
 
@@ -829,12 +836,13 @@ overwhelmed animation*/
   font-family: "Just Me Again Down Here", cursive;
   font-weight: lighter;
   color: rgba(0, 0, 255, 1);
-  font-size: 90px;
+  font-size: 70px;
   float: left;
   position: absolute;
-  left: -10px;
-  top: 500px;
+  left: 34px;
+  top: 628px;
   z-index: 2;
+  transform: rotate(354deg);
 }
 
 .h2-over {
@@ -844,8 +852,8 @@ overwhelmed animation*/
   font-size: 30px;
   float: left;
   position: absolute;
-  top: 655px;
-  left: 87px;
+  top: 738px;
+  left: 110px;
   z-index: 2;
 }
 
@@ -855,8 +863,9 @@ overwhelmed animation*/
   font-size: 2.5em;
   float: left;
   position: absolute;
-  left: 400px;
-  top: 6px;
+  left: 462px;
+  top: 39px;
+  color: rgba(252, 57, 183, 1);
 }
 
 .h3-over1 {
@@ -867,8 +876,8 @@ overwhelmed animation*/
   position: absolute;
   left: -10px;
   top: 500px;
-  color: rgba(252, 57, 183, 1);
-  left: 791px;
+  color: rgba(0, 0, 255, 1);
+  left: 919px;
   top: 482px;
 }
 /* .infographic2 {
@@ -919,7 +928,7 @@ overwhelmed animation*/
   width: 40%;
   float: left;
   position: absolute;
-  top: 1475px;
+  top: 1549px;
   left: -80px;
 }
 .h1-toxic {
@@ -954,7 +963,7 @@ overwhelmed animation*/
   font-family: "Inter", sans-serif;
   font-weight: normal;
   font-size: 1em;
-  color: black;
+  color: rgb(255, 255, 255);
   width: 40%;
   float: left;
   position: absolute;
@@ -973,7 +982,7 @@ overwhelmed animation*/
 .h1-propose {
   font-family: "Inconsolata", monospace;
   font-weight: 600;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-size: 30px;
   float: left;
   position: absolute;
@@ -1013,7 +1022,7 @@ overwhelmed animation*/
   float: left;
   position: absolute;
   left: -10px;
-  top: 174px;
+  top: -327px;
   z-index: 2;
 }
 .balance {
@@ -1241,4 +1250,15 @@ overwhelmed animation*/
   left: 528px;
   top: 5132px;
   z-index: 2;
+}
+
+.pink-div {
+  background-color: rgba(252, 57, 183, 1);
+  width: 100%;
+  height: 700px;
+  float: left;
+  position: absolute;
+  top: 1688px;
+  left: -198px;
+  z-index: -1;
 }
