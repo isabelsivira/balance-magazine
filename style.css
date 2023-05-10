@@ -9,7 +9,9 @@ body {
 /* #img {
   background-color: rgb(44, 44, 44);
 } */
-
+body{
+  overflow-x: hidden;
+}
 .phrases-container {
   width: 100%;
   height: 100%;

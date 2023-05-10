@@ -2,6 +2,9 @@
   font-family: "Roboto", sans-serif;
   border: 1px white;
 }
+body{
+  overflow-x: hidden;
+}
 .number-6 {
   position: relative;
   top: 8901px;
