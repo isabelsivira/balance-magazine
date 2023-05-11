@@ -12,7 +12,7 @@ body {
 body {
   overflow-x: hidden;
 }
-.phrases-container {
+/* .phrases-container {
   width: 100%;
   height: 100%;
   display: block;
@@ -25,7 +25,7 @@ body {
   height: 100%;
   padding: 10px;
   margin: 0;
-  background-image: url(error.jpeg);
+  background-image: url(firstpage.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -38,15 +38,14 @@ body {
   margin: 0 auto;
   height: 600px;
   position: relative;
-}
+} */
 
-/* #firstImage {
+.firstImage {
   width: 100%;
   height: 1000px;
   object-fit: cover;
-  margin-top: 50%;
-  opacity: 70%;
-} */
+  margin-top: 30%;
+}
 
 .p1 {
   font-family: "Just Me Again Down Here", cursive;
@@ -627,10 +626,18 @@ overwhelmed animation*/
   /* border-top: 2px solid rgba(0, 0, 0, 0.1); */
   /* border-bottom: 2px solid rgba(0, 0, 0, 0.1); */
 }
-#skyscraper {
+/* #skyscraper {
   background-image: url(finalSkyscrapper2.png);
   width: 100%;
   height: 3000px;
+} */
+
+.finalsky {
+  width: 37%;
+  float: left;
+  position: absolute;
+  top: 100px;
+  left: 10px;
 }
 .skyscraper-item {
   display: inline-block;
@@ -792,14 +799,12 @@ overwhelmed animation*/
   z-index: 2;
 }
 
-/* .container-toxic {
-  display: flex;
-  margin-bottom: 30%;
-  margin-top: 30%;
-} */
-
 .overwhelmed-info {
-  width: 95%;
+  width: 30%;
+  float: left;
+  position: absolute;
+  top: 7px;
+  left: 93px;
 }
 
 #container {
@@ -824,13 +829,13 @@ overwhelmed animation*/
   user-select: none;
 }
 
-.infographic1 {
+/* .infographic1 {
   /* margin-bottom: 30%; */
-  float: left;
+/*float: left;
   position: absolute;
   left: 106px;
   top: -50px;
-}
+} */
 
 .h1-over {
   font-family: "Just Me Again Down Here", cursive;
@@ -1261,4 +1266,12 @@ overwhelmed animation*/
   top: 1688px;
   left: -198px;
   z-index: -1;
+}
+
+.finalpage {
+  width: 38%;
+  float: left;
+  position: absolute;
+  top: 3850px;
+  z-index: 2;
 }

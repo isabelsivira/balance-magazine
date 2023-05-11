@@ -640,7 +640,7 @@ body {
   font-weight: 200;
   position: relative;
   left: 750px;
-  top: 446px;
+  top: 519px;
   width: 298px;
   height: 573px;
   padding: 3em 5em;
@@ -653,9 +653,9 @@ body {
   text-orientation: mixed;
   color: #fc39b7;
   font-size: 65px;
-  position: relative;
-  left: -6px;
-  top: 476px;
+  position: absolute;
+  left: 431px;
+  top: 791px;
   padding: 0;
   margin: 0;
 }
@@ -663,7 +663,7 @@ body {
 .gear-23 {
   width: 272px;
   height: 270px;
-  position: relative;
+  position: absolute;
   top: -932px;
   left: 1195px;
   transition: all 2s ease-in-out;
@@ -674,8 +674,8 @@ body {
   width: 250px;
   height: 250px;
   position: relative;
-  top: -1124px;
-  left: 827px;
+  top: -999px;
+  left: 1072px;
   transition: all 2s ease-in-out;
   filter: drop-shadow(5px 10px 4px rgba(0, 0, 0, 0.25));
   z-index: 2;
@@ -841,6 +841,7 @@ body {
 .gear-28:hover {
   transform: rotate(180deg);
 }
+
 .part-three-title {
   font-family: "Just Me Again Down Here", cursive;
   font-weight: lighter;
@@ -851,7 +852,7 @@ body {
   float: left;
   position: absolute;
   left: 117px;
-  top: 15874px;
+  top: 1915px;
   z-index: 2;
 }
 .bottom-text {
@@ -862,7 +863,7 @@ body {
   float: left;
   position: absolute;
   left: 138px;
-  top: 15954px;
+  top: 1954px;
   z-index: 2;
   margin-bottom: 3%;
 }
@@ -874,15 +875,10 @@ body {
   float: left;
   position: absolute;
   left: 544px;
-  top: 15544px;
+  top: 1544px;
 }
 
-.invitation-text {
-  font-family: "Inter", sans-serif;
-  font-weight: normal;
-  font-size: 1em;
-  float: left;
-  position: absolute;
-  left: 546px;
-  top: 15610px;
+.understanding-container {
+  position: relative;
+  top: 0px;
 }

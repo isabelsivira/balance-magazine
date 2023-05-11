@@ -23,7 +23,7 @@ contentBox.forEach((box) => {
 //The following lines of code were run through ChatGPT to debug
 // Prevents from scrolling past a certain point
 function handleScroll() {
-  const scrollMin = 4000;
+  const scrollMin = 3550;
   const currentScroll =
     window.pageYOffset || document.documentElement.scrollTop;
 
