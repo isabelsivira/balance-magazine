@@ -42,9 +42,9 @@ body {
 
 .firstImage {
   width: 100%;
-  height: 1000px;
+  height: 1200px;
   object-fit: cover;
-  margin-top: 30%;
+  margin-top: 10%;
 }
 
 .p1 {
@@ -610,7 +610,7 @@ overwhelmed animation*/
 
 .skyscraper-container {
   width: 100%;
-  height: 400%;
+  height: 380%;
   display: block;
   overflow: hidden;
 }
@@ -637,7 +637,7 @@ overwhelmed animation*/
   float: left;
   position: absolute;
   top: 100px;
-  left: 10px;
+  left: -8px;
 }
 .skyscraper-item {
   display: inline-block;
@@ -664,8 +664,8 @@ overwhelmed animation*/
   z-index: 2;
   float: left;
   position: absolute;
-  left: 370px;
-  top: 1110px;
+  left: 360px;
+  top: 1186px;
 }
 
 .h2-another {
@@ -676,8 +676,8 @@ overwhelmed animation*/
   z-index: 2;
   float: left;
   position: absolute;
-  left: 270px;
-  top: 1120px;
+  left: 260px;
+  top: 1195px;
 }
 
 .h1-way {
@@ -687,8 +687,8 @@ overwhelmed animation*/
   font-size: 15em;
   float: left;
   position: absolute;
-  left: 440px;
-  top: 955px;
+  left: 430px;
+  top: 1031px;
 }
 
 .h3-consume {
@@ -699,8 +699,8 @@ overwhelmed animation*/
   z-index: 2;
   float: left;
   position: absolute;
-  left: 880px;
-  top: 945px;
+  left: 870px;
+  top: 1063px;
 }
 
 .h3-consume1 {
@@ -711,8 +711,8 @@ overwhelmed animation*/
   z-index: 2;
   float: left;
   position: absolute;
-  left: 880px;
-  top: 1050px;
+  left: 870px;
+  top: 1177px;
 }
 
 .h3-consume2 {
@@ -723,8 +723,8 @@ overwhelmed animation*/
   z-index: 2;
   float: left;
   position: absolute;
-  left: 980px;
-  top: 1260px;
+  left: 970px;
+  top: 1387px;
 }
 
 .h3-realize {
@@ -736,7 +736,7 @@ overwhelmed animation*/
   float: left;
   position: absolute;
   left: 400px;
-  top: 2220px;
+  top: 2316px;
 }
 
 .h3-realize1 {
@@ -748,7 +748,7 @@ overwhelmed animation*/
   float: left;
   position: absolute;
   left: 400px;
-  top: 2400px;
+  top: 2500px;
 }
 
 .h3-price {
@@ -759,8 +759,8 @@ overwhelmed animation*/
   z-index: 2;
   float: left;
   position: absolute;
-  left: 1190px;
-  top: 1490px;
+  left: 1180px;
+  top: 1587px;
 }
 
 .h3-price1 {
@@ -771,8 +771,8 @@ overwhelmed animation*/
   z-index: 2;
   float: left;
   position: absolute;
-  left: 1200px;
-  top: 1565px;
+  left: 1190px;
+  top: 1668px;
 }
 
 .h1-awareness {
@@ -783,7 +783,7 @@ overwhelmed animation*/
   float: left;
   position: absolute;
   left: 1130px;
-  top: 2300px;
+  top: 2440px;
   z-index: 2;
 }
 
@@ -795,7 +795,7 @@ overwhelmed animation*/
   float: left;
   position: absolute;
   left: 1180px;
-  top: 2450px;
+  top: 2587px;
   z-index: 2;
 }
 
@@ -804,7 +804,7 @@ overwhelmed animation*/
   float: left;
   position: absolute;
   top: 7px;
-  left: 93px;
+  left: 173px;
 }
 
 #container {
@@ -844,8 +844,8 @@ overwhelmed animation*/
   font-size: 70px;
   float: left;
   position: absolute;
-  left: 34px;
-  top: 628px;
+  left: 270px;
+  top: 617px;
   z-index: 2;
   transform: rotate(354deg);
 }
@@ -857,8 +857,8 @@ overwhelmed animation*/
   font-size: 30px;
   float: left;
   position: absolute;
-  top: 738px;
-  left: 110px;
+  top: 728px;
+  left: 347px;
   z-index: 2;
 }
 
@@ -868,8 +868,8 @@ overwhelmed animation*/
   font-size: 2.5em;
   float: left;
   position: absolute;
-  left: 462px;
-  top: 39px;
+  left: 604px;
+  top: 26px;
   color: rgba(252, 57, 183, 1);
 }
 
@@ -882,7 +882,7 @@ overwhelmed animation*/
   left: -10px;
   top: 500px;
   color: rgba(0, 0, 255, 1);
-  left: 919px;
+  left: 979px;
   top: 482px;
 }
 /* .infographic2 {
@@ -944,15 +944,15 @@ overwhelmed animation*/
   float: left;
   position: absolute;
   left: 100px;
-  top: 2356px;
+  top: 2294px;
   z-index: 2;
 }
 
-.h1-toxic:hover {
-  /* background-color: rgba(252, 57, 183, 1); */
+/* .h1-toxic:hover {
   box-shadow: 0 1em 1em -0.6em rgba(0, 0, 255, 1);
-  /* transform: translateY(-0.25em); */
-}
+ 
+} */
+
 .h2-toxic {
   font-family: "Inconsolata", monospace;
   font-weight: normal;
@@ -961,7 +961,7 @@ overwhelmed animation*/
   float: left;
   position: absolute;
   left: 123px;
-  top: 2494px;
+  top: 2443px;
 }
 
 .div-toxic {
@@ -1199,7 +1199,7 @@ overwhelmed animation*/
 .kate-signature {
   float: left;
   position: absolute;
-  left: -114px;
+  left: -161px;
   top: 5128px;
   z-index: 2;
 }
@@ -1214,7 +1214,7 @@ overwhelmed animation*/
 .eve-signature {
   float: left;
   position: absolute;
-  left: 292px;
+  left: 278px;
   top: 5199px;
   z-index: 2;
 }
@@ -1241,7 +1241,7 @@ overwhelmed animation*/
   font-size: 2.5em;
   float: left;
   position: absolute;
-  left: 528px;
+  left: 442px;
   top: 5065px;
 }
 
@@ -1252,7 +1252,7 @@ overwhelmed animation*/
   font-size: 1em;
   float: left;
   position: absolute;
-  left: 528px;
+  left: 443px;
   top: 5132px;
   z-index: 2;
 }
@@ -1274,4 +1274,201 @@ overwhelmed animation*/
   position: absolute;
   top: 3850px;
   z-index: 2;
+}
+
+.phrase-item {
+  float: left;
+  position: absolute;
+  top: 213px;
+  left: 329px;
+  z-index: 2;
+}
+
+.phrase-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.phrase1 {
+  font-family: "Inconsolata", monospace;
+  color: rgba(0, 0, 255, 1);
+  font-weight: bold;
+  font-size: 2.5em;
+  margin-right: 1rem;
+}
+
+.phrase2 {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  font-size: 1.5em;
+  float: left;
+  position: absolute;
+  top: 82px;
+  left: 515px;
+}
+
+.phrase1 span {
+  display: inline-block;
+  overflow: hidden;
+  animation: swift-up 0.5s ease-in-out forwards;
+}
+
+.phrase1 span i {
+  font-style: normal;
+  position: relative;
+  top: 1em;
+  animation: swift-up 0.5s ease-in-out forwards;
+}
+
+@keyframes swift-up {
+  to {
+    top: 0;
+  }
+}
+
+.references {
+  font-family: "Just Me Again Down Here", cursive;
+  font-weight: lighter;
+  color: rgba(252, 57, 183, 1);
+  font-size: 100px;
+  float: left;
+  position: absolute;
+  left: 100px;
+  top: 3442px;
+  z-index: 2;
+}
+
+.book {
+  float: left;
+  position: absolute;
+  top: 3000px;
+  left: 100px;
+}
+.book-title,
+.sky-title,
+.woman-title,
+.w2-title,
+.gear-title,
+.skater-title,
+.letters-title,
+.l2-title {
+  font-family: "Inconsolata", monospace;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 0%;
+}
+.bookref,
+.skyref,
+.womanref,
+.w2ref,
+.gearref,
+.skaterref,
+.lettersref,
+.l2ref {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.sky {
+  float: left;
+  position: absolute;
+  top: 3100px;
+  left: 100px;
+}
+.woman {
+  float: left;
+  position: absolute;
+  top: 3200px;
+  left: 100px;
+}
+.woman2 {
+  float: left;
+  position: absolute;
+  top: 3300px;
+  left: 100px;
+}
+.gear {
+  float: left;
+  position: absolute;
+  top: 3400px;
+  left: 100px;
+}
+.skater2 {
+  float: left;
+  position: absolute;
+  top: 3000px;
+  left: 800px;
+}
+
+.letters1 {
+  float: left;
+  position: absolute;
+  top: 3100px;
+  left: 800px;
+}
+
+.letter2 {
+  float: left;
+  position: absolute;
+  top: 3200px;
+  left: 800px;
+}
+
+.popup {
+  margin-top: 5vh;
+  box-sizing: border-box;
+  position: absolute;
+  width: 1304px;
+  height: 729px;
+  background: #ffffff;
+  border: 4px solid #fc39b7;
+  border-radius: 70px;
+  text-align: center;
+  padding: 0 30px 30px;
+  z-index: 3;
+}
+#background {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  background-color: rgba(255, 255, 10, 0.2);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
+.popup h1 {
+  font-family: "Just Me Again Down Here";
+  color: #fc39b7;
+  font-weight: 400;
+  font-size: 70px;
+}
+
+.popup h3 {
+  font-family: "Inconsolata";
+  font-size: 30px;
+}
+.popup li {
+  font-family: "Inter";
+  font-weight: 400;
+}
+.popup ul {
+  font-family: "Inter";
+  font-weight: 400;
+}
+.popup button {
+  background: #fc39b7;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 18px;
+  width: 272px;
+  height: 98px;
+  font-family: "Just Me Again Down Here";
+  font-size: 60px;
+  color: #ffffff;
+  margin-top: 40px;
+  cursor: pointer;
 }

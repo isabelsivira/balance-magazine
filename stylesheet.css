@@ -1,5 +1,5 @@
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: "Inter", sans-serif;
   border: 1px white;
 }
 body {
@@ -11,7 +11,7 @@ body {
   left: 264px;
   width: 154.99px;
   height: 285.93px;
-  font-family: "Roboto";
+  font-family: "inter";
   font-style: normal;
   font-weight: 700;
   font-size: 200px;
@@ -23,7 +23,7 @@ body {
   left: 274px;
   width: 154.99px;
   height: 285.93px;
-  font-family: "Roboto";
+  font-family: "inter";
   font-style: normal;
   font-weight: 700;
   font-size: 200px;
@@ -35,7 +35,7 @@ body {
   position: absolute;
   transition: all 2s ease-in-out;
   opacity: 0.2;
-  top: 10127px;
+  top: 9827px;
   left: 54px;
   z-index: 2;
 }
@@ -43,7 +43,7 @@ body {
   width: 430px;
   height: 430px;
   position: relative;
-  top: 10367px;
+  top: 10067px;
   left: 119px;
   transition: all 2s ease-in-out;
   opacity: 0.2;
@@ -53,7 +53,7 @@ body {
   width: 320px;
   height: 310px;
   position: relative;
-  top: 10029px;
+  top: 9729px;
   left: -150px;
   right: -450px;
   transition: all 2s ease-in;
@@ -87,34 +87,24 @@ body {
   left: 550px;
   top: 9505px;
   width: 170px;
-  height: 200px;
+  height: 292px;
   padding-top: 5em;
   padding-bottom: 12em;
   padding-right: 12em;
   padding-left: 12em;
   border-radius: 30px;
 }
-.opening-title {
-  writing-mode: vertical-rl;
-  text-orientation: mixed;
-  color: #ffff0a;
-  font-size: 80px;
-  font-weight: 700;
-  position: relative;
-  left: 1111px;
-  top: 10526px;
-  padding: 0;
-  margin: 0;
-}
-.opening-title-yellow {
+
+.opening-title-pink {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
   writing-mode: vertical-rl;
   text-orientation: mixed;
   color: #fc39b7;
-  font-size: 80px;
-  font-weight: 700;
+  font-size: 65px;
   position: relative;
-  left: 1113px;
-  top: 10179px;
+  left: 1119px;
+  top: 10317px;
   padding: 0;
   margin: 0;
 }
@@ -186,33 +176,20 @@ body {
   margin: 1em;
   width: 510px;
 }
-.self-love-title {
-  position: relative;
-  top: 10309px;
-  left: 300px;
-  width: 462.23px;
-  height: 116.27px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 80px;
-  line-height: 105px;
-  color: #ffff0a;
-  transform: rotate(-90.25deg);
-}
+
 .self-love-black {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
   position: relative;
   top: 10118px;
   left: 300px;
   width: 462.23px;
   height: 116.27px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 80px;
+  font-size: 65px;
   line-height: 105px;
-  color: black;
+  color: #0000ff;
   transform: rotate(-90.25deg);
+  margin-top: 250px;
 }
 .filled-gear2 {
   width: 300px;
@@ -297,36 +274,26 @@ body {
   padding: 10px 50px;
   padding-top: 90px;
   border-radius: 30px;
+  margin-top: 330px;
 }
 .self-help-title {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
   writing-mode: vertical-rl;
   text-orientation: mixed;
   position: relative;
-  top: 7185px;
-  left: 777px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 80px;
+  top: 6859px;
+  left: 799px;
+  font-size: 65px;
   color: #fc39b7;
+  margin-top: 430px;
 }
-.self-help-white {
-  writing-mode: vertical-rl;
-  text-orientation: mixed;
-  position: relative;
-  top: 6771px;
-  left: 777px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 80px;
-  color: #0000ff;
-}
+
 .number-4 {
   position: relative;
   top: 6757px;
   left: 170px;
-  font-family: "Roboto";
+  font-family: "inter";
   font-style: normal;
   font-weight: 700;
   font-size: 200px;
@@ -338,7 +305,7 @@ body {
   position: relative;
   top: 6323px;
   left: 155px;
-  font-family: "Roboto";
+  font-family: "inter";
   font-style: normal;
   font-weight: 700;
   font-size: 200px;
@@ -381,8 +348,8 @@ body {
   width: 350px;
   height: 350px;
   position: relative;
-  top: 7070px;
-  left: -939px;
+  top: 7103px;
+  left: -1029px;
   transition: all 2s ease-in-out;
   filter: drop-shadow(5px 10px 4px rgba(0, 0, 0, 0.25));
   z-index: 2;
@@ -391,7 +358,7 @@ body {
   position: relative;
   top: -1700px;
 }
-.help-title {
+/* .help-title {
   position: relative;
   top: -170px;
   left: -765px;
@@ -401,19 +368,21 @@ body {
   transform: rotate(-90.25deg);
   top: 11211px;
   left: -811px;
-}
+} */
 .help-title-white {
-  position: relative;
-  top: -370px;
-  left: -765px;
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  position: absolute;
   color: #fc39b7;
-  font-size: 80px;
-  font-weight: 700;
+  font-size: 65px;
   transform: rotate(-90.25deg);
-  top: 11045px;
-  left: -811px;
+  top: 11565px;
+  left: -177px;
+  margin-top: 100px;
 }
 .help-text {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
   background-color: #faff00;
   color: black;
   text-align: start;
@@ -427,6 +396,12 @@ body {
   top: 11226px;
   left: -60px;
   border-radius: 30px;
+  margin-top: 587px;
+}
+.help-first {
+  font-family: "Inconsolata", monospace;
+  font-weight: bold;
+  font-size: 1.5em;
 }
 .help-container {
   position: relative;
@@ -488,7 +463,7 @@ body {
   position: relative;
   top: 10517px;
   left: 664px;
-  font-family: "Roboto";
+  font-family: "inter";
   font-style: normal;
   font-weight: 700;
   font-size: 200px;
@@ -500,7 +475,7 @@ body {
   position: relative;
   top: 10084px;
   left: 670px;
-  font-family: "Roboto";
+  font-family: "inter";
   font-style: normal;
   font-weight: 700;
   font-size: 200px;
@@ -517,6 +492,8 @@ body {
   top: -1100px;
 }
 .forgiveness-text {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
   border-radius: 30px;
   display: flex;
   color: white;
@@ -540,7 +517,7 @@ body {
   position: relative;
   top: 2294px;
   left: 66px;
-  font-family: "Roboto";
+  font-family: "inter";
   font-style: normal;
   font-weight: 700;
   font-size: 200px;
@@ -551,7 +528,7 @@ body {
   position: relative;
   top: 1860px;
   left: 54px;
-  font-family: "Roboto";
+  font-family: "inter";
   font-style: normal;
   font-weight: 700;
   font-size: 200px;
@@ -599,7 +576,7 @@ body {
   z-index: 2;
 }
 
-.forgiveness-title {
+/* .forgiveness-title {
   writing-mode: vertical-rl;
   text-orientation: mixed;
   color: #faff00;
@@ -610,21 +587,26 @@ body {
   top: 3952px;
   padding: 0;
   margin: 0;
-}
+} */
 .forgiveness-title-colored {
+  font-family: "Inter", sans-serif;
   writing-mode: vertical-rl;
   text-orientation: mixed;
   color: #0000ff;
-  font-size: 80px;
-  font-weight: 700;
+  font-size: 65px;
+  font-weight: normal;
   position: relative;
-  left: 1195px;
+  left: 1138px;
   top: 3419px;
   padding: 0;
-  margin: 0;
+  margin-top: 700px;
 }
 
-.understanding-first {
+.understanding-first,
+.forgiveness-first,
+.self-help-first,
+.focus-first,
+.opening-first {
   font-family: "Inconsolata", monospace;
   font-weight: bold;
   font-size: 1.5em;
@@ -632,7 +614,6 @@ body {
 
 .understanding-text {
   font-family: "Inter", sans-serif;
-  font-weight: normal;
   background-color: #fc39b7;
   color: white;
   text-align: start;
@@ -645,6 +626,8 @@ body {
   height: 573px;
   padding: 3em 5em;
   border-radius: 30px;
+  margin-top: 200px;
+  margin-bottom: 300px;
 }
 .understanding-title {
   font-family: "Inter", sans-serif;
@@ -654,8 +637,8 @@ body {
   color: #fc39b7;
   font-size: 65px;
   position: absolute;
-  left: 431px;
-  top: 791px;
+  left: 435px;
+  top: 861px;
   padding: 0;
   margin: 0;
 }
@@ -664,7 +647,7 @@ body {
   width: 272px;
   height: 270px;
   position: absolute;
-  top: -932px;
+  top: 262px;
   left: 1195px;
   transition: all 2s ease-in-out;
   opacity: 0.2;
@@ -674,7 +657,7 @@ body {
   width: 250px;
   height: 250px;
   position: relative;
-  top: -999px;
+  top: -1303px;
   left: 1072px;
   transition: all 2s ease-in-out;
   filter: drop-shadow(5px 10px 4px rgba(0, 0, 0, 0.25));
@@ -684,8 +667,8 @@ body {
   width: 307px;
   height: 309px;
   position: relative;
-  top: -1170px;
-  left: 477px;
+  top: -1130px;
+  left: 878px;
   transition: all 2s ease-in-out;
   opacity: 0.2;
   z-index: 2;
@@ -695,9 +678,9 @@ body {
   position: relative;
   width: fit-content;
   margin: 0;
-  top: -210px;
-  left: 1250px;
-  font-family: "Roboto";
+  top: -418px;
+  left: 1254px;
+  font-family: "inter";
   font-style: normal;
   font-weight: 700;
   font-size: 200px;
@@ -708,9 +691,9 @@ body {
   position: relative;
   width: fit-content;
   margin: 0;
-  top: -447px;
-  left: 1258px;
-  font-family: "Roboto";
+  top: -652px;
+  left: 1261px;
+  font-family: "inter";
   font-style: normal;
   font-weight: 700;
   font-size: 200px;
@@ -722,8 +705,8 @@ body {
 }
 .gear-26 {
   position: relative;
-  top: 45px;
-  left: -846px;
+  top: -257px;
+  left: -531px;
   transition: all 2s ease-in-out;
   opacity: 0.2;
   width: 500px;
@@ -734,19 +717,18 @@ body {
   width: 200px;
   height: 200px;
   position: relative;
-  top: -1490px;
-  left: 1217px;
+  top: -1364px;
+  left: -66px;
   transition: all 2s ease-in-out;
   opacity: 0.2;
   z-index: 2;
 }
 .gear-28 {
-  position: relative;
   width: 320px;
   height: 320px;
-  position: relative;
-  top: -371px;
-  left: -119px;
+  position: absolute;
+  top: 1257px;
+  left: 121px;
   transition: all 2s ease-in-out;
   filter: drop-shadow(5px 10px 4px rgba(0, 0, 0, 0.25));
   z-index: 2;
@@ -852,7 +834,7 @@ body {
   float: left;
   position: absolute;
   left: 117px;
-  top: 1915px;
+  top: 1672px;
   z-index: 2;
 }
 .bottom-text {
@@ -863,7 +845,7 @@ body {
   float: left;
   position: absolute;
   left: 138px;
-  top: 1954px;
+  top: 1755px;
   z-index: 2;
   margin-bottom: 3%;
 }
@@ -875,7 +857,16 @@ body {
   float: left;
   position: absolute;
   left: 544px;
-  top: 1544px;
+  top: 1433px;
+}
+.invitation-text {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  font-size: 1em;
+  float: left;
+  position: absolute;
+  left: 546px;
+  top: 1497px;
 }
 
 .understanding-container {
