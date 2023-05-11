@@ -999,18 +999,19 @@ overwhelmed animation*/
   font-family: "Just Me Again Down Here", cursive;
   font-weight: lighter;
   color: rgba(0, 0, 255, 1);
-  font-size: 90px;
+  font-size: 70px;
   float: left;
   position: absolute;
-  left: 140px;
-  top: 1192px;
+  left: 154px;
+  top: 1236px;
   z-index: 2;
+  transform: rotate(354deg);
 }
 
 .h2-toxicinfo {
   font-family: "Inconsolata", monospace;
   font-weight: normal;
-  font-size: 2em;
+  font-size: 30px;
   color: black;
   float: left;
   position: absolute;
