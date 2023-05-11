@@ -1275,3 +1275,58 @@ overwhelmed animation*/
   top: 3850px;
   z-index: 2;
 }
+.popup {
+  margin-top: 5vh;
+  box-sizing: border-box;
+  position: absolute;
+  width: 1304px;
+  height: 729px;
+  background: #FFFFFF;
+  border: 4px solid #FC39B7;
+  border-radius: 70px;
+  text-align: center;
+  padding: 0 30px 30px;
+  z-index: 3;
+}
+#background{
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  background-color: rgba(255, 255, 10, 0.2);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
+.popup h1{
+  font-family: 'Just Me Again Down Here';
+  color: #FC39B7;
+  font-weight: 400;
+font-size: 70px;
+}
+
+.popup h3{
+  font-family: 'Inconsolata';
+  font-size: 30px;
+}
+.popup li{
+  font-family: 'Inter';
+  font-weight: 400;
+}
+.popup ul{
+  font-family: 'Inter';
+  font-weight: 400;
+}
+.popup button {
+  background: #FC39B7;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 18px;
+width: 272px;
+height: 98px;
+font-family: 'Just Me Again Down Here';
+font-size: 60px;
+color: #FFFFFF;
+margin-top: 40px;
+cursor: pointer;
+}

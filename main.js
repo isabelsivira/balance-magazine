@@ -116,3 +116,9 @@ function animate() {
 animate();
 // Attach the scroll event listener
 window.addEventListener("scroll", handleScroll);
+let popupButton = document.getElementById("closePopup");
+
+popupButton.addEventListener("click", function (event) {
+  document.getElementById("popup").style.display = "none";
+  document.getElementById("background").style.display = "none";
+});
