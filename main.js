@@ -40,6 +40,7 @@ function handleScroll() {
     window.scrollTo(0, window.scrollY);
   }
 }
+//animation for the overwhelmed part https://codepen.io/alvarotrigo/pen/eYEqPZa
 const elts = {
   text1: document.getElementById("text1"),
   text2: document.getElementById("text2"),

@@ -1473,3 +1473,8 @@ overwhelmed animation*/
   margin-top: 40px;
   cursor: pointer;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
